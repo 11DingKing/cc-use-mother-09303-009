@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "技能证书互认申请",
+  "source_context": "https://world.people.com.cn/n1/2026/0924/c1002-40804903.html",
+  "actors": [
+    "毕业生",
+    "教务审核员",
+    "认证机构"
+  ],
+  "states": [
+    "申请",
+    "核验",
+    "评估",
+    "批准",
+    "记账"
+  ],
+  "invariants": [
+    "证书验证",
+    "映射权益",
+    "防重复消费",
+    "隐私隔离"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09303-009-A",
+      "actor": "毕业生",
+      "state": "申请"
+    },
+    {
+      "case_id": "09303-009-B",
+      "actor": "认证机构",
+      "state": "核验"
+    }
+  ],
+  "tags": [
+    "credential-recognition",
+    "benefit-entitlement"
+  ]
+}
